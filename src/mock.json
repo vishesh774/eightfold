@@ -1,0 +1,58 @@
+{
+    "inputQuestion": {
+        "name": "textbox1",
+        "type": "textbox",
+        "placeholder": "Text Box 1",
+        "label": "This is question 1",
+        "value" : [],
+        "validations": [{
+            "required": true,
+            "message": "Question 1 is a mandatory Item"
+        }]
+    },
+    "radioQuestion": {
+        "name": "radio1",
+        "type": "radio",
+        "label": "This is question 2",
+        "value": [],
+        "options": [{
+            "label": "One",
+            "value": "1"
+        }, {
+            "label": "Two",
+            "value": "2"
+        }, {
+            "label": "Three",
+            "value": "3"
+        }, {
+            "label": "Four",
+            "value": "4"
+        }],
+        "validations": [{
+            "required": true
+        }]
+    },
+    "checkBoxQuestion": {
+        "name": "checkbox1",
+        "type": "checkbox",
+        "label": "This is question 3",
+        "mandatory": true,
+        "value": [],
+        "options": [{
+            "label": "One",
+            "value": "1"
+        }, {
+            "label": "Two",
+            "value": "2"
+        }, {
+            "label": "Three",
+            "value": "3"
+        }, {
+            "label": "Four",
+            "value": "4"
+        }],
+        "validations": [{
+            "required": true
+        }]
+    }
+}
